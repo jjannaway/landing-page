@@ -1,0 +1,19 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0;
+    list-style: none;  
+    gap: 4px; 
+}
