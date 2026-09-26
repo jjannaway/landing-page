@@ -6,7 +6,9 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white   
 }
 
 .header ul{
@@ -16,4 +18,66 @@
     margin: 0;
     list-style: none;  
     gap: 4px; 
+}
+
+body {
+    font-family: Roboto;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-info-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-info-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.content-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cta-button button {
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    padding: 4px;
+    padding-left: 16px;
+    padding-right:16px;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style:italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
 }
