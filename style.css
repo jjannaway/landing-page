@@ -209,3 +209,11 @@ button {
     font-weight: bold;
 
 }
+
+button:hover {
+    background-color: #7eafff;
+}
+
+button:active {
+    background-color: #114aa7;
+}
